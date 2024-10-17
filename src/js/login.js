@@ -30,7 +30,7 @@ const addUSer = async () => {
         if (data.message === "success") {
 
 
-            setTimeout(() => { window.location.pathname = 'shoppingCart/src/home.html' }, 1500)
+            setTimeout(() => { window.location.pathname = 'shoppingCart/index.html' }, 1500)
             document.getElementById("notRegistered").classList.add("hidden")
             localStorage.setItem('token', JSON.stringify(data.token))
         } else {
