@@ -43,7 +43,7 @@ const productsContainer = document.getElementById("allProducts");
 const logout = document.getElementById("logout")
 logout.addEventListener("click", () => {
     localStorage.clear()
-    window.location.href = "shoppingCart/index.html"
+    window.location.pathname = "shoppingCart/index.html"
 
 
 })
