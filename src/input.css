@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* start alert */
+#alertBox {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
+.customAlert h5 {
+    font-size: 1.2rem;
+}
+
+.customAlert  {
+
+color: green;
+border-radius: 5px;
+border: 1px solid green;
+}
+
+
+
+/* End  alert */
