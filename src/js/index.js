@@ -33,7 +33,7 @@ const addUser = async () => {
         console.log(data);
 
         if (data.message === "success") {
-            setTimeout(() => { window.location.pathname = 'src/login.html' }, 1500)
+            setTimeout(() => { window.location.pathname = 'shoppingCart/src/login.html' }, 1500)
             console.log(data);
 
             document.getElementById("RegisteredBefore").classList.add("hidden")
@@ -41,7 +41,7 @@ const addUser = async () => {
             console.log('error', data);
 
             document.getElementById("RegisteredBefore").classList.remove("hidden")
-            setTimeout(() => { window.location.pathname = 'src/login.html' }, 1500)
+            setTimeout(() => { window.location.pathname = 'shoppingCart/src/login.html' }, 1500)
         }
     }
 

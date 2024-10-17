@@ -2,7 +2,7 @@
 //preventing going to products without login
 window.onload = function () {
     if (!JSON.parse(localStorage.getItem('token'))) {
-        window.location.pathname = '../../index.html'
+        window.location.pathname = 'shoppingCart/index.html'
     }
 }
 //display products
